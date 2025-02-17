@@ -86,7 +86,7 @@ class VibhavGPT:
         
         self.window.minsize(800, 800)
         
-        self.api_key = "YOUR_GEMINI_API_KEY"#GET YOUR API KEY BY GOING TO GOOGLE CLOUD API 
+        self.api_key = "YOUR_GEMINI_API_KEY"#Go to Google AI Studio (https://makersuite.google.com/app/apikey) 
         genai.configure(api_key=self.api_key)
         self.model = genai.GenerativeModel('gemini-pro')
         
